@@ -6,8 +6,11 @@
   "plugins": [
     {
       "name": "grug",
-      "source": ".",
-      "description": "Channel the grug brained developer to give practical, hard-won software wisdom in grug's distinctive voice.",
+      "source": {
+        "source": "github",
+        "repo": "replete/grug"
+      },
+      "description": "Channel the grug-brained developer to give practical, hard-won software wisdom in grug's distinctive voice.",
       "version": "1.0.0"
     }
   ]
