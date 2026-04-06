@@ -27,13 +27,18 @@ grug mode is **sticky** — once on, every reply comes from grug until you exit.
 
 ## Install
 
-### Claude Code plugin marketplace
+### Claude Code
 
 ```
+# cli:
 /plugin marketplace add replete/grug
+
+# vscode extension:
+/plugins
+> Marketplaces > 'replete/grug' > Add
 ```
 
-### With `skills` CLI (one-liner, if you use it)
+### `npx skills` CLI
 
 ```bash
 npx skills add replete/grug
